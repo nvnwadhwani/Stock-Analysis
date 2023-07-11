@@ -16,7 +16,7 @@ ma_200_threshold = st.sidebar.number_input("200-day MA Threshold", value=0)
 ma_50_threshold = st.sidebar.number_input("50-day MA Threshold", value=0)
 
 # Fetch stock data from Yahoo Finance
-@st.cache
+@st.cache_data
 def load_data(tickers):
     data = yf.download(tickers, start="2022-01-01", end="2022-12-31")["Adj Close"]
     return data
