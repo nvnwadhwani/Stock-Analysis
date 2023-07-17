@@ -1,51 +1,12 @@
-* TA-Lib Quick Reference *
+Title: Stock Analysis App
 
-Where is the documentation?
-===========================
-http://ta-lib.org in the documentation section.
+Description: This repository contains the source code for a stock analysis app built using Streamlit. The app allows users to analyze stock data, including historical prices, technical indicators and indicators for buy and sell for the stock.
 
-What's this version? What's new?
-================================
-See CHANGELOG.TXT and HISTORY.TXT
+Strategy: This strategy is based on the following principles:
 
-How to use TA-Lib with Excel?
-=============================
-See "ta-lib\excel\README.TXT"
-Read the LICENSE_EXCEL.TXT
+- Trend following: The strategy buys stocks that are trending upwards and sells stocks that are trending downwards.
+- Momentum: The strategy buys stocks that are oversold and sells stocks that are overbought.
+- Risk management: The strategy uses stop losses to protect against losses.
 
-How to use TA-Lib with Java?
-============================
-Java source code can be found in ta-lib\java.
-A JAR file is provided for easy distribution.
-
-How to use TA-Lib with .NET and Mono?
-=====================================
-Pre-built assemblies are in ta-lib\dotnet
-Source code is in C++/CLI Managed.
-
-How to use the TA-Lib C Library?
-================================
-Makefiles can be found in ta-lib/c/make. Find
-your platform-compiler directory and run your
-maker (make, nmake etc...).
-
-Some IDES projects can be found in ta-lib/c/ide.
-
-All libraries are created in ta-lib/c/lib
-All executable are created in ta-lib/c/bin
-
-Generally, you just need to link to the static
-library created in ta-lib/c/lib
-
-Your application code just need to
-include ta-lib/c/include/ta_libc.h
-
-How to uninstall the library?
-=============================
-Just delete the ta-lib files. TA-Lib does
-not touch your system settings or registry.
-
-Comments/Help
-=============
-Try the forum at http://tadoc.org
+Note: This application is built to explore use of data to analyse stock's/assets and please research the assets before making any investment. 
 
