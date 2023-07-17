@@ -1,5 +1,5 @@
 streamlit
 pandas
-yfianance
+yfinance==0.2.4
 TA-lib
 plotly
