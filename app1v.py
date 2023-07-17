@@ -13,7 +13,7 @@ def main():
     end_date = datetime.now() - timedelta(days=1)
     
     # Load the stock data
-    stocks = st.sidebar.text_input("Enter a list of stocks (comma-separated)", "AAPL")
+    stocks = st.sidebar.text_input("Enter a list of stocks (comma-separated)", "RELIANCE.NS")
     data = yf.download(stocks, start="2014-01-01", end=end_date.strftime("%Y-%m-%d"))
 
     # Calculate the 200-day moving average
