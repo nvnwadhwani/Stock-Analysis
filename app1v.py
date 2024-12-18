@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import talib
+import ta-lib
 import yfinance as yf
 import plotly.graph_objects as go
 # import sklearn
