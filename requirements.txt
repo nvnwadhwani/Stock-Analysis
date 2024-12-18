@@ -3,4 +3,4 @@ pandas
 yfinance==0.2.4
 ta-lib-bin
 plotly
-ta-lib
+TA-Lib
